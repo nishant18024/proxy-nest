@@ -1,0 +1,27 @@
+{
+  "name": "proxy-nest",
+  "version": "1.0.0",
+  "description": "ProxyNest is a lightweight Node.js package that simplifies the creation of a proxy server using Axios. It acts as an intermediary, forwarding requests from clients to specified APIs and returning the responses. With built-in support for error handling, request/response transformation, and customizable options, AxiosProxy makes it easy to manage cross-origin requests, handle API rate limits, and enhance security. Perfect for developers looking to streamline their API interactions while maintaining flexibility and control over their data flow",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant18024/proxy-nest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant18024/proxy-nest/issues"
+  },
+  "homepage": "https://github.com/nishant18024/proxy-nest#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0"
+  }
+}
